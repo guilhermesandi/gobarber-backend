@@ -1,4 +1,4 @@
-import { MigrationInterface, QueryRunner, Table } from "typeorm";
+import { MigrationInterface, QueryRunner, Table } from 'typeorm';
 
 export default class CreateUsers1605823691399 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
@@ -36,8 +36,8 @@ export default class CreateUsers1605823691399 implements MigrationInterface {
             type: 'timestamp',
             default: 'now()',
           },
-        ]
-      })
+        ],
+      }),
     );
   }
 
