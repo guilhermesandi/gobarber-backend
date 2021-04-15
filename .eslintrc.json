@@ -33,7 +33,9 @@
     ],
     "no-useless-constructor": "off",
     "camelcase": "off",
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", {
+     "endOfLine":"auto"
+   }],
     "class-methods-use-this": "off",
     "@typescript-eslint/naming-convention": [
       "error",
