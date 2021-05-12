@@ -6,7 +6,8 @@
 
 </div>
 
-# Recuperação de senha
+# Mapeamento das features do sistema
+## Recuperação de senha
 
 **RF**
 
