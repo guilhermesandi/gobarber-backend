@@ -26,7 +26,7 @@
 - O link enviado por email para resetar senha, deve expirar em 2h;
 - O usuário precisa confirmar a nova senha ao resetar sua senha;
 
-# Atualização do perfil
+## Atualização do perfil
 
 **RF**
 
@@ -37,7 +37,8 @@
 - O usuário não pode alterar seu email para um email já utilizado;
 - Para atualizar sua senha, o usuário deve informar a senha antiga;
 - Para atualizar sua senha, o usuário precisa confirmar a nova senha;
-# Painel do prestador
+
+## Painel do prestador
 
 **RF**
 
@@ -55,7 +56,7 @@
 
 - A notificação deve ter um status de lida ou não-lida para que o prestador possa controlar;
 
-# Agendamento de serviços
+## Agendamento de serviços
 
 **RF**
 
