@@ -21,10 +21,10 @@
     "jsonwebtoken": "^8.5.1",
     "multer": "^1.4.2",
     "nodemailer": "^6.6.1",
-    "pg": "^8.5.1",
+    "pg": "^8.6.0",
     "reflect-metadata": "^0.1.13",
     "tsyringe": "^4.5.0",
-    "typeorm": "^0.2.29",
+    "typeorm": "^0.2.32",
     "uuid": "^8.3.1",
     "uuidv4": "^6.2.7",
     "yarn": "^1.22.10"
