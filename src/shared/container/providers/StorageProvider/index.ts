@@ -1,3 +1,4 @@
+import uploadConfig from '@config/upload';
 import { container } from 'tsyringe';
 import DiskStorageProvider from './implementations/DiskStorageProvider';
 import S3StorageProvider from './implementations/S3StorageProvider';
@@ -8,4 +9,7 @@ const providers = {
   s3: S3StorageProvider,
 };
 
-container.registerSingleton<IStorageProvider>('StorageProvider', providers.s3);
+container.registerSingleton<IStorageProvider>(
+  'StorageProvider',
+  providers[uploadConfig.driver],
+);
